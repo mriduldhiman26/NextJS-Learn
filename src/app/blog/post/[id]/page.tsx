@@ -3,7 +3,7 @@ import Post from "@/app/ui/components/posts/Post";
 
 interface pageProps {
     params: {
-        id: string;
+        id?: string;
     }
 
 }
